@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #000000;
+}
+
+/*WELCOME TO CSS.*/
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+	text-align: center;
+}
+/*AS YOU CAN SEE, EVERYTHING IS TERRIBLE.*/
+/*(I think there's a better way to do this but I'm tired of screwing with this nonsense)*/
+
+
+#logopic {
+	width:100px;
+	height:100px;
+}
+
+h1 {
+	color: white;
+}
+
+
+.buttonset {
+	padding: 10px;
+}
+
+.button {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	
+	padding: 10px;
+	border-radius: 8px;
+	
+	text-decoration: none;
+}
+
+.button:link {
+	background-color: #336688;
+	color: #00A8FF;
+}
+
+.button:visited {
+	background-color: #336689;
+	color: #00AAFF;
+}
+
+.button:hover {
+	background-color: #3399AA;
+	color: #00DDFF;
+}
+
+.button:active {
+	background-color: #00DDFF;
+	color: #FFFFFF;
+}
