@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background-color: #000000;
+	background-color: #000F0F;
 }
 
 /*WELCOME TO CSS.*/
@@ -29,16 +29,21 @@ body {
 /*AS YOU CAN SEE, EVERYTHING IS TERRIBLE.*/
 /*(I think there's a better way to do this but I'm tired of screwing with this nonsense)*/
 
+#piccontainer {
+	max-width: 500px;
+	margin: auto;
+}
 
 #logopic {
-	width:100px;
-	height:100px;
+	width: 100%;
+	height: auto;
 }
 
 h1 {
 	color: #EEFFFF;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-shadow: 0px 0px 4px #aaffff;
+	font-size: 72px;
+	text-shadow: 0px 0px 10px #aaffff;
 }
 
 
@@ -51,6 +56,8 @@ h1 {
 	
 	padding: 10px;
 	border-radius: 8px;
+	font-size: 36px;
+	line-height: 75px;
 	
 	text-decoration: none;
 }
